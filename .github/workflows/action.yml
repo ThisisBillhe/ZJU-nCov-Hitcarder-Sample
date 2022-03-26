@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Working
-        uses: ThisisBillhe/zju-ncov-hitcarder@master
+        uses: ThisisBillhe/ZJU-nCov-Hitcarder-Sample@main
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
